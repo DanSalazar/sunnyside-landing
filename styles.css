@@ -161,7 +161,7 @@ a {
     display: none;
   }
 
-  .nav-list {
+  .nav-list, .nav-list.show {
     display: block;
     position: static;
     background: none;
@@ -181,6 +181,10 @@ a {
 
   .-button-nav {
     background: var(--white);
+  }
+
+  .header-arrow.-hidden {
+    display: block;
   }
 }
 
