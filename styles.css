@@ -498,6 +498,11 @@ a {
   color: var(--footer-text);
   font-size: var(--base);
   font-weight: 700;
+  transition: var(--transition);
+}
+
+.footer-links a:hover {
+  color: var(--white);
 }
 
 .-footer {
@@ -508,8 +513,35 @@ a {
   margin-top: 20px;
 }
 
-.footer-social img {
+.-icon {
+  cursor: pointer;
+  background-color: var(--footer-text);
+  display: inline-block;
   margin: 0 10px;
+  height: 20px;
+  transition: var(--transition);
+  width: 20px;
+}
+
+.-icon:hover {
+  background-color: var(--white);
+}
+
+.footer-fb {
+  -webkit-mask: url('./images/icon-facebook.svg') no-repeat center;
+  mask: url('./images/icon-facebook.svg') no-repeat center;
+}
+.footer-ig {
+  -webkit-mask: url('./images/icon-instagram.svg') no-repeat center;
+  mask: url('./images/icon-instagram.svg') no-repeat center;
+}
+.footer-tw {
+  -webkit-mask: url('./images/icon-twitter.svg') no-repeat center;
+  mask: url('./images/icon-twitter.svg') no-repeat center;
+}
+.footer-pt {
+  -webkit-mask: url('./images/icon-pinterest.svg') no-repeat center;
+  mask: url('./images/icon-pinterest.svg') no-repeat center;
 }
 
 .button-up {
@@ -541,11 +573,6 @@ a {
 
   .footer-social img {
     cursor: pointer;
-  }
-  
-  .footer-social img:hover {
-    fill: var(--white);
-    color: var(--white);
   }
 }
 
