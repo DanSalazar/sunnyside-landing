@@ -121,7 +121,7 @@ a {
 .-button-nav {
   background: var(--primary-yellow);
   border-radius: 32px;
-  color: var(--primary-dark-blue);
+  color: var(--neutral-dark-blue);
   padding: 16px 20px;
   font-family: var(--fraunces);
   font-weight: 700;
